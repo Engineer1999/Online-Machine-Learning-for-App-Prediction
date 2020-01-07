@@ -1,4 +1,4 @@
-# Online-Machine-Learning-for-App-Prediction
+# Online Machine Learning for App Preloading 
 Objective of this project is to decrease response time of the apps by preloading them.
 
 In this project we have used supervised machine learning concept in operating systems.  We are using machine learning algorithm to enhance user experience by introducing a predictive model which can predict the applications likely to be opened next.  Using this prediction, operating system will configure the necessary files in advance and that will reduce the response time of that particular application.Proposed method will learn about application usage behaviour of user and it will provide a personalized service to each user according to their daily application usage behaviour.
@@ -31,4 +31,4 @@ Decision maker will be used to take current decision according to the data provi
 Above figure shows the comparison between response time during the different stages of learning. We have simulated a scenario where model is getting data after some particular time and it is being trained and test. We can clearly observe the decreased response time in all applications. Matlab's response time has become nearly zero because according to data matlab is used in very particular time with appropriate circumstance. Learning usage pattern of matlab is easy compare to other applications which can be infer from the results.
 
 
-For report go to this link :- https://drive.google.com/file/d/1Mlpgo3OSkpmOaxb0nlEdCzZrPQBXmkIL/view?usp=sharing
+
