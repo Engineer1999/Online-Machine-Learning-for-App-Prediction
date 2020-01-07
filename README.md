@@ -22,6 +22,13 @@ We are using multi-threading to provide a customization per user. Our method wil
 Decision maker will be used to take current decision according to the data provided. It will be working continuously in the background. Back-end model is used to learn users application usage pattern continuously. Required data will be collected continuously and after a certain amount of time it will be fitted to the back-end learning model and statistics of back-end model will be exchanged with decision making model. This approach will be useful in understanding of different users application usage pattern.
 
 ## Flow-Diagram
-![Flow diagram](/images/flow.png)
+![Flow diagram](/images/OS_Diagram.png)
+
+
+## Performance Analysis
+![Flow diagram](/images/PA.png)
+
+Above figure shows the comparison between response time during the different stages of learning. We have simulated a scenario where model is getting data after some particular time and it is being trained and test. We can clearly observe the decreased response time in all applications. Matlab's response time has become nearly zero because according to data matlab is used in very particular time with appropriate circumstance. Learning usage pattern of matlab is easy compare to other applications which can be infer from the results.
+
 
 For report go to this link :- https://drive.google.com/file/d/1Mlpgo3OSkpmOaxb0nlEdCzZrPQBXmkIL/view?usp=sharing
